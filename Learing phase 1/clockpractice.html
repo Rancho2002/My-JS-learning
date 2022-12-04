@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Clock</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            width: 100vw;
+            height: 10vh;
+        }
+
+        header nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+
+        ul li {
+            margin: 20px 5px;
+            padding: 5px;
+            list-style: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover {
+            text-decoration: none;
+            color: rgb(255, 204, 2);
+        }
+
+        main {
+
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .container {
+            width: 500px;
+            height: 500px;
+            /* background-color: cornsilk; */
+            margin: 20px 40px;
+        }
+
+        h1 {
+            margin-top: 10px;
+            color: darkblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#html">Home</a></li>
+                <li><a href="#html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+            <h1>Time:
+                <span id="time"></span>
+            </h1>
+        </div>
+    </main>
+    <script>
+        console.log('is it ok?')
+        let a;
+        let time;
+        let date;
+        setInterval(() => {
+            a=new Date();
+            time=a.getHours() + ' : '+a.getMinutes()+' : '+a.getSeconds();
+            date=a.toLocaleDateString()
+            document.getElementById('time').innerHTML=time + ' on '+ date ;
+        }, 1000);
+    </script>
+</body>
+
+</html>

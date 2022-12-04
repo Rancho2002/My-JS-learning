@@ -1,0 +1,107 @@
+/Most common Programming cases
+1. camelCase
+2. kabab-case
+3. snake_case
+4. PascalCase
+
+//
+
+
+'hello'-string
+1-variable
+[3,true,'hello',null]-array
+{harry:"name", marks:30}-object
+
+
+
+console.log
+alert
+document.write("")-->should avoid this command.
+console.time("your code took")
+console.warn("")
+console.error("")
+console.clear()
+console.assert(4==(2+2))
+console.table({harry:"name", marks:30})
+console.timeend("your code took")--->now it says how miliseconds time require to run this code
+
+
+var num1=2
+let num1=2
+
+
+(The scope of let is limited and block level. It's effect are act inside curly braces only that mean inside function only.)
+
+
+const num1=2 
+--> this is constant and can't be increment.
+
+console.log(true && true)
+'like an AND gate'
+
+console.log(true || true)
+'like an OR gate'
+
+function avg(){
+    <logic>
+    return <variable>
+}
+
+if(age>10){
+    console.log()
+}
+
+else if (age>19){
+    console.log()
+}
+else{
+    console.log()
+}
+
+var array=['datas are here in array form']
+for(i=0;i>array.length;i++){
+    
+    console.log()
+}
+for(i=0;i>array.length;i++){
+    if (i==2){
+        break--> this stops at index2
+        continue---> this skips index2 
+    }
+    console.log()
+}
+array.forEach(function(element){
+    console.log(element)
+})
+let i=0
+while(i>array.length){
+    console.log(array[i])
+    i++
+}
+do{
+    console.log(array[j]);
+    j++;
+}while(j<array.length)
+
+
+myArray.pop()  ---->remove last element from array
+myArray.push('harry')  ---->add harry in last of array
+myArray.shift()  ---->remove 1st element from array
+myArray.unshift('Harry')  ---->add Harry in 1st position of array
+myArray.sort()----> sorts elements alphabatecally
+
+JSON---> JavaScript Object Notation 
+
+(typeof )------> to know file type
+
+
+== this is comparison operator which check value only but not type
+
+=== this check value as well as type
+const  age='10';
+if(age==10){
+    return true
+}this return true but
+if(age===10){
+    return true
+}this does not return true.
