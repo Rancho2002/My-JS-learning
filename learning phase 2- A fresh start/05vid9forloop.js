@@ -14,6 +14,6 @@ for(let a in obj){
     console.log(`The marks of ${a} is ${obj[a]} `)
 }
 
-//! for-of loop (must be iterable- array or string)
+//! for-of loop (must be iterable(which can be loop through)- array or string)
 for(let b of "harry")
 console.log(b)

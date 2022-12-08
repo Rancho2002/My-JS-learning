@@ -1,4 +1,5 @@
 // bb nn ss u : boolean bigint number null string symbol undefined
+// typeof is a operator, delete is a operator
 let a=true
 let b=BigInt(329)+BigInt(1)
 let c= 392
