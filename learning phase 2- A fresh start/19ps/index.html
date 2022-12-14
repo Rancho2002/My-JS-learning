@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+</head>
+<body>
+    <script>
+
+        const canDrive=(age)=>{
+            return age>18?true:false;
+        }
+        while(true){
+            let age=prompt("Enter your age: ");
+            if(age<0){
+                console.error("You entered a invalid age.")
+                break;
+            }
+            
+            if(canDrive(age)) alert("You can drive")
+            else alert("You can not drive as you are kid")
+
+            if(confirm("Do you want to run prompt again? ")) continue;
+            else break;
+        }
+    </script>
+</body>
+</html>
