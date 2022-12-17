@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Children, Parent, Siblings</title>
+</head>
+<body><div>
+
+    </div>
+    <script>
+        // console.log(window) BOM - BROWSING OBJECT MODEL
+        console.log(document) //DOM - DOCUMENT OBJECT MODEL
+        console.log(document.body.firstChild)// firstChild is a property of element body (return text node if you hit enter just after initiating body tag, else it returns, element node)
+        console.log(document.body.lastChild)
+        console.log(document.body.childNodes)//! returns a list or array but not array.Its a node list. If want to continue, go with
+        let arr= Array.from(document.body.childNodes)
+        //childNodes[0]=firstChild
+        //childNodes[len-1]=lastChild
+
+        console.log(arr)
+        console.log(document.body.hasChildNodes())
+    </script>
+</body>
+</html>
