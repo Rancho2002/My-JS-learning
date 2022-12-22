@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Only Navigation</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <script>
+        let b=document.body;
+        console.log(b.firstChild)
+        console.log(b.firstElementChild) //<!--! This is element only navigation -->
+        console.log(document.body.firstElementChild.firstElementChild.children) //<!--! to get all the child nodes-->
+    </script>
+</body>
+</html>
