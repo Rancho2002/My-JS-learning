@@ -8,5 +8,5 @@ elem.innerHTML="&quot;"+jokes[index]+"&quot;🤪";
 const newjoke=()=>{
     // console.log(index)
     index=parseInt((Math.random() *  jokes.length));
-    elem.innerHTML="&quot;"+jokes[index]+"&quot;";
+    elem.innerHTML="&quot;"+jokes[index]+"&quot;🤪";
 }
