@@ -3,7 +3,7 @@ jokes=['Why did the scarecrow win an award?<br><u> Because he was outstanding in
 let elem=document.getElementById("quote");
 let index=parseInt((Math.random() *jokes.length));
 
-elem.innerHTML="&quot;"+jokes[index]+"&quot;";
+elem.innerHTML="&quot;"+jokes[index]+"&quot;🤪";
 
 const newjoke=()=>{
     // console.log(index)
