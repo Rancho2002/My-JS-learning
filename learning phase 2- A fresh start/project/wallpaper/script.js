@@ -59,16 +59,14 @@ let min= parseInt(date.getMinutes()),hour=parseInt(date.getHours());
 if(min<10) min="0"+min;
 if(hour<10) hour="0"+hour;
 
-
 displayTime.innerHTML = hour + ":" + min;
 
 
-
+let displayDateHTML=document.getElementById("date")
 let displayMonth = monthNames[date.getMonth()];
 let displayDay = daysName[date.getDay()];
 let displayDate = date.getDate();
 
 
-let displayDateHTML=document.getElementById("date")
 displayDateHTML.innerHTML=displayDay+", "+`<nobr>${displayDate} ${displayMonth}</nobr>`;
 
