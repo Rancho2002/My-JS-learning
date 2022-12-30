@@ -6,3 +6,6 @@ User will see dynamic change in wallpaper according to time , for example if it 
 ## Steps to create this project 👨‍💻
 
 ### Step 1:
+```
+let time = new Date().toTimeString();
+```
