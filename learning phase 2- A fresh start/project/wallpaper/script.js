@@ -24,14 +24,14 @@ if (time > 24 || time < 0) {
   }
   else if (time >= 16 && time < 18) {
     body.style.background = "url(./photos/late_afternoon.webp)";
-    body.style.backgroundSize = "cover";
+    body.style.backgroundSize = "100vw 100vh";
   }
   else if (time >= 18 && time < 21) {
     body.style.background = "url(./photos/evening.png)";
   }
   else if (time >= 21) {
     body.style.background = "url(./photos/night.jpg)";
-    body.style.backgroundSize = "cover";
+    body.style.backgroundSize = "100vw 100vh";
   }
   else if (time >= 0 && time < 3) {
     body.style.background = "url(./photos/midnight.webp)";
