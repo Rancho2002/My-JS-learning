@@ -6,12 +6,42 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Chapter 8 - PS</title>
 </head>
+<style>
+    @media (max-width:574px) {
+        .checker{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+        .visi-btn{
+            display: flex;
+            justify-content: center;
+            -webkit-tap-highlight-color: transparent;
+        }
+    }
+    .hide{
+        display: none;
+    }
+    p{
+        padding: 10px;
+        background: rgb(143, 141, 141);
+        border-radius: 10px;
+        cursor: pointer;
+        user-select: none;
+        color: #fff;
+        font-weight: 900;
+        font-size: 25px;
+    }
+</style>
 <body>
-    <div>
-        <button>First</button>
-        <button>Second</button>
-        <button>Third</button>
-        <button>Fourth</button>
+
+    <div class="checker">
+    <img src="./glowless.png" alt="" class="bulb">
+    <img src="./glowing.png" alt="" class="hide bulb" >
+    </div>
+
+    <div class="visi-btn">
+        <p onclick="makeVisible()">Click Me</p>
     </div>
     <script src="./script.js"></script>
 </body>
