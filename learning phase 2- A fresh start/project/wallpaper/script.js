@@ -1,4 +1,5 @@
-let time = new Date().toTimeString(); // taking local time as string
+// taking local time as string
+let time = new Date().toTimeString(); 
 
 // time = prompt();
 time = time.slice(0, 2); // taking the hours for validation check about morning, or afternoon etc.
@@ -74,9 +75,9 @@ const daysName = [
 let displayTime = document.getElementById("time");
 
 let min = parseInt(date.getMinutes()),
-  hour = parseInt(date.getHours());
+ hour = parseInt(date.getHours());
 
-// if the digit come single, like if its "1" am then below returns "01"
+// if the digit come single, like if it is "1" return "01"
 if (min < 10) min = "0" + min;
 if (hour < 10) hour = "0" + hour;
 
