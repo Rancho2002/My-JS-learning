@@ -22,6 +22,7 @@ if (time > 24 || time < 0) {
   }
   else if (time >= 13 && time < 16) {
     body.style.background = "url(./photos/afternoon.png)";
+    body.style.backgroundSize = "100vw 100vh";
   }
   else if (time >= 16 && time < 18) {
     body.style.background = "url(./photos/late_afternoon.webp)";
