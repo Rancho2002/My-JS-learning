@@ -2,16 +2,16 @@ let a=document.querySelector(".first")
 const sum=(x,b)=>{
     a.innerHTML=x+b
 }
-setTimeout(() => {
+let a1=setTimeout(() => {
     a.innerHTML+="  "+4239*39293
-}, 5000);
+}, 5234);
+console.log(a1)
 
-
-setTimeout(sum,4000,9,3) //! setTimeout first takes function then time then function arguments :)
+// setTimeout(sum,4000,9,3) //! setTimeout first takes function then time then function arguments :)
 let i=0
 let ab=setInterval(() => {
-    if(i) clearInterval(ab)
-    console.log(ab)
+    if(i==1) clearInterval(ab)
+    console.log(ab,i)
     alert("hello")
-    i++;
+    ++i;
 }, 6000);

@@ -4,11 +4,11 @@ let elem= document.getElementsByTagName("div")[0]
 
 let div=document.createElement("div")
 div.innerHTML="<i>chal matlab kuchbi</i>"
-elem.appendChild(div)
+// elem.appendChild(div)
 
 
 elem.append(div);
 // elem.prepend(div);
-elem.before(div);
+// elem.before(div);
 // elem.after(div);
-elem.replaceWith(div);
+// elem.replaceWith(div); // ! this will replace the elem with div

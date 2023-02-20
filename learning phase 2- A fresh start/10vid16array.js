@@ -24,7 +24,7 @@ console.log(arr,e)
 
 // let f=arr.shift()
 // console.log(arr, "element is",f)
-let f1=arr.unshift(319)
+let f1=arr.unshift(319)// returns the new array length and add the element at the beginning
 console.log(arr, "element is",f1)
 
 

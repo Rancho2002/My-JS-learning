@@ -5,3 +5,5 @@ console.log(typeof chk)
 
 let newArr=arr.slice(3,5)
 console.log(newArr)
+xy=[4,2,1]
+console.log(typeof xy)

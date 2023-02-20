@@ -9,7 +9,7 @@ q2.lastElementChild.style.color="green"
 let q3=document.getElementsByTagName("li");
 
 q3=Array.from(q3);
-
+console.log(q3)
 q3.forEach(element => {
     element.style.background="cyan";
 });

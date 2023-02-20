@@ -13,3 +13,4 @@ const sum=(a,b)=>{
 }
 
 console.log(sum(3,2))
+console.log(4/22)

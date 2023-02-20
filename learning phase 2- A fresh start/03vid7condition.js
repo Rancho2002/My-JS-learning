@@ -21,7 +21,8 @@ switch (true) {
         console.log("This is not string")
         break;
 }
-! conclusion: take switch as C nothing more than that.*/
+! conclusion: take switch as C nothing more than that.
+*/
 
 
 switch (a) {

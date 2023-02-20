@@ -7,7 +7,7 @@ console.assert("err" == false)
 
 console.time("forLoop")
 
-for (let i = 0; i < 500; i++) {
+for (let i = 0; i < 50; i++) {
   console.log(233)
 }
 

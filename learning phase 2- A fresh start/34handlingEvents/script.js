@@ -32,9 +32,10 @@ let x = function(event) {
   
   // btn.addEventListener('click', y)
   
-  // let a = prompt("What is your favorite number?");
+  let a = prompt("What is your favorite number?");
   
   
-  // if (a == "2") {
-  //   btn.removeEventListener('click', x)
-  // }
+  if (a == "2") {
+    btn.removeEventListener('click', x)
+    console.log("click event removed");
+  }
